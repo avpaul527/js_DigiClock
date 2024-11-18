@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXAwMTB3b3R3MTZ5OHB3cGRyN29xeHgxaWd6MWFqOWtlZnZ1OWp4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHcdcVJ0hppOL0Lamo/giphy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+  -webkit-backdrop-filter: blur(5px);
+
+  backdrop-filter: blur(5px);
+
+  padding: 20px 30px;
+    
+    /*margin: 0;*/
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXAwMTB3b3R3MTZ5OHB3cGRyN29xeHgxaWd6MWFqOWtlZnZ1OWp4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHcdcVJ0hppOL0Lamo/giphy.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:darkturquoise;
+    transition: all 0 ease-in-out;
+    
+    
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    color:aquamarine;
+    
+    
+}
+
+#clock-container:hover{
+    /*animation-name: clockzoom;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;*/
+
+    transform: scale(1.25);
+    transition-duration: 2s;
+
+}
+
+
+/*@keyframes clockzoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.25, 1.25);
+    }
+    
+  }
+    /*
